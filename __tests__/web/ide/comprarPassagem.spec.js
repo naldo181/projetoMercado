@@ -77,8 +77,4 @@ describe('Comprar Passagem', function() {
     assert(await driver.findElement(By.css("h1")).getText() == "Thank you for your purchase today!")
     assert(await driver.findElement(By.css("tr:nth-child(3) > td:nth-child(2)")).getText() == "555 USD")
   })
-<<<<<<< HEAD
 })
-=======
-})
->>>>>>> ecc56e1cbe0cb264b153437d7c25defc77037ed2
