@@ -4,7 +4,7 @@ const assert = require('assert')
 
 // Suite de Teste
 describe('Comprar Passagem', function() {
-  this.timeout(60000)   // espera implicita / paciência = 30.000 milissegundos
+  
   let driver            // objeto do Selenium WebDriver
   let vars              // lista para guardar variaveis e informações
 
