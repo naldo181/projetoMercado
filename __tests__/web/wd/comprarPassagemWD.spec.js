@@ -1,6 +1,6 @@
 // bibliotecas
 const { Builder, By } = require('selenium-webdriver')
-require('chromedriver')
+require('chromedrive')
 const assert = require('assert')
 
 // suite de teste
