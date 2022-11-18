@@ -4,19 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "cucumber": "tsc && cucumber-js"
+  },
+  "jest": {
+    "testTimeout": 60000
   },
   "keywords": [],
   "author": "Ronaldo Santos",
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.3.6",
+    "chromedriver": "^107.0.3",
     "jest": "^29.3.1",
     "mocha": "^10.1.0",
     "selenium-webdriver": "^4.6.0",
     "supertest": "^6.3.1"
-  },
-  "jest": {
-    "testTimeout": 30000
   }
 }
